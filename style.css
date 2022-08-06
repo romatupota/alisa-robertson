@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 5px transparent;
+    background: linear-gradient(45deg, red, blue) border-box;
+    margin: 24px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    font-size: 12px;
+    color: #858383;
+}
+
+.child {
+    margin: 24px;
+}
+
+.div-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: #cac7c7;
+    border-radius: 50px;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin: 16px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #5a5a5a;
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.fa-location-dot {
+    margin-right: 4px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.fotter-button {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0;
+    margin: 24;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a5a5a;
+}
+
+.fotter-button:hover {
+    cursor: pointer;
+    background-color: #cac7c7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.button-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: transparent;
+    margin: 8px;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-header:hover {
+    background-color: #858383;
+}
+
+.small-round {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    background-color: #800080;
+    position: absolute;
+    left: 120px;
+    top: 33px;
+}
+
+.big-round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    bottom: 50px;
+    left: 150;
+}
