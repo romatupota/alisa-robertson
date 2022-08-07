@@ -24,7 +24,7 @@ img {
     margin: 24px;
 }
 
-.conteiner {
+.container {
     display: flex;
     flex-direction: row;
 }
